@@ -2,6 +2,7 @@
 ## Email: biozhp@163.com
 ## Input files: chrX.ABD.vcf.gz pro_pos.txt 
 ## Usages: python pi_promoter_region.py -i gene_list.txt
+
 import re
 import os
 import argparse
