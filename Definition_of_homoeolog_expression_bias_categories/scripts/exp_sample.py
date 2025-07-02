@@ -5,7 +5,6 @@ parser.add_argument('-s', type=str,help="sample")
 args = parser.parse_args()
 sample = args.s
 inf_name = "./TPM_normal/Triads_" + str(sample) + ".txt"
-#inf2 = open("./scripts/Triads.exp.list.txt","r")
 inf2 = open("./scripts/test2.txt","r")
 dict_1 = {}
 for line2 in inf2:
