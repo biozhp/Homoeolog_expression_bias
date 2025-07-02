@@ -4,8 +4,8 @@ parser = argparse.ArgumentParser(description="Author: Peng Zhao <pengzhao@nwafu.
 parser.add_argument('-s', type=str,help="sample_name")
 args = parser.parse_args()
 sample_name = args.s
-inf_name = "/stor9000/apps/users/NWSUAF/2017051475/Project/Triads_406/eud/all.sample.eud.txt"
-ouf_name = "/stor9000/apps/users/NWSUAF/2017051475/Project/Triads_406/eud/temp/" + str(sample_name) + "/gene.list"
+inf_name = "all.sample.eud.txt"
+ouf_name = "./temp/" + str(sample_name) + "/gene.list"
 inf = open(inf_name,"r")
 ouf = open(ouf_name,"w")
 for line in inf:
